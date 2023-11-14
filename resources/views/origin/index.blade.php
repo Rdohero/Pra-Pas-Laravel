@@ -1,9 +1,8 @@
 @extends('layouts.main')
 
 @section('container')
-    <h1 class="text-center d-block mt-3 pb-4">Origin Categories</h1>
-
-    <div class="container">
+    <div class="container mt-4">
+        <h1 class="text-center d-block mt-3 pb-4">Origin Categories</h1>
         <div class="row">
             @foreach($origins as $origin)
             <div class="col-md-4">

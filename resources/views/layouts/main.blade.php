@@ -12,9 +12,8 @@
 <body>
 @include('partials.navbar')
 
-<div class="container mt-4">
     @yield('container')
-</div>
+
 
 <link rel="stylesheet" href="/css/style.css">
 <link rel="stylesheet" type="text/css" href="https://unpkg.com/trix@2.0.0/dist/trix.css">

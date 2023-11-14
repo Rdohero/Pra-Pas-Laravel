@@ -1,7 +1,7 @@
 @extends('layouts.main')
 
 @section('container')
-    <div class="container">
+    <div class="container mt-4">
         <div class="row my-3">
             <div class="col-lg-8">
                 <h1 class="mb-3">{{ $title }}</h1>
