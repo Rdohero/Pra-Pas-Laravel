@@ -16,7 +16,7 @@
                 @enderror
             </div>
             <div class="mb-3">
-                <input type="text" class="form-control @error('slug') is-invalid @enderror" id="slug" name="slug" required autofocus value="{{ old('slug') }}">
+                <input type="text" class="form-control @error('slug') is-invalid @enderror" id="slug" name="slug" required autofocus hidden value="{{ old('slug') }}">
                 @error('slug')
                 <div class="invalid-feedback">
                     {{ $message }}
