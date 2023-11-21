@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\CharactersController;
+use App\Http\Controllers\MediaController;
 use App\Http\Controllers\OriginController;
 use App\Http\Controllers\TierController;
 use Illuminate\Support\Facades\Route;
@@ -24,3 +25,4 @@ Route::resource('/home',CharactersController::class);
 Route::get('/tier/checkSlug', [TierController::class, 'checkSlug']);
 Route::resource('/tier',TierController::class);
 Route::resource('/origin',OriginController::class);
+Route::resource('/media',MediaController::class);

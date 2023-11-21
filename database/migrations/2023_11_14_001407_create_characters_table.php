@@ -15,6 +15,7 @@ return new class extends Migration
     {
         Schema::create('characters', function (Blueprint $table) {
             $table->id()->autoIncrement();
+            $table->string('image');
             $table->foreignIdFor(Tier::class);
             $table->string('name');
             $table->foreignIdFor(Origin::class);
