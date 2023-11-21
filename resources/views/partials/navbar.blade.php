@@ -15,6 +15,9 @@
                 <li class="nav-item">
                     <a class="nav-link {{( $active === "origin") ? 'active' : ''}}" href="/origin">Origin</a>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link {{( $active === "media") ? 'active' : ''}}" href="/media">Media</a>
+                </li>
             </ul>
             <ul class="navbar-nav ms-auto">
                     <li class="nav-item dropdown">

@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\Characters;
+use App\Models\Media;
 use App\Models\Origin;
 use App\Models\Tier;
 use Illuminate\Http\Request;
@@ -28,7 +29,7 @@ class CharactersController extends Controller
             $origin = Origin::firstWhere('id', request('origin'));
             $title = $origin->origin;
             $active = "origin";
-        } else {
+        }else {
             $title = "Characters List";
             $active = "home";
         }
