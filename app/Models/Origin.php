@@ -11,4 +11,9 @@ class Origin extends Model
 
     protected $guarded = ['id'];
 
+    public function media()
+    {
+        return $this->belongsTo(Media::class);
+    }
+
 }
